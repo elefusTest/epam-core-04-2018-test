@@ -15,8 +15,8 @@ public class Task5 {
      * Количество различных вхождений одной буквы в слове учитывается.
      *
      * ---------------------------------------------------------------------------------------------------
-     *
      * Пример выполнения задания:
+     *
      * Входные данные:
      * 5
      * Язык программирования Java is widespread
@@ -26,5 +26,7 @@ public class Task5 {
      */
     public static void main(String[] args) {
         // TODO реализация
+
+        // TODO System.out.println(countWordsWithSameNumVowelsAndConsonants);
     }
 }
