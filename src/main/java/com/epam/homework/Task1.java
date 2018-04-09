@@ -15,8 +15,11 @@ public class Task1 {
      * ...
      * Строка_N
      *
-     * -----------------------------------------------------------------------------
+     * Формат выходных данных:
+     * MIN ($длина_минимальной_строки$): $минимальная_строка$
+     * MAX ($длина_максимальной_строки$): $максимальная_строка$
      *
+     * -----------------------------------------------------------------------------
      * Пример выполнения задания:
      *
      * Входные данные:
@@ -33,7 +36,7 @@ public class Task1 {
     public static void main(String[] args) {
         // TODO реализация
 
-        // TODO System.out.printf("MIN (%d): \"%s\"%n", minLength, minString);
-        // TODO System.out.printf("MAX (%d): \"%s\"%n", maxLength, maxString);
+        // TODO System.out.println("MIN (" + minLength + "): " + minString);
+        // TODO System.out.println("MAX (" + maxLength + "): " + maxString);
     }
 }
