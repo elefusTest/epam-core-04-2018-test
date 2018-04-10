@@ -45,11 +45,10 @@ public class Task2 {
      * (33): В царстве вечернем зеленой весны.
      */
     public static void main(String[] args) {
-        "qwe"
         Scanner scanner = new Scanner(System.in);
         Stream.generate(scanner::nextLine)
               .limit(Integer.parseInt(scanner.nextLine()))
               .sorted(comparingInt(String::length).thenComparing(naturalOrder()))
-              .forEachOrdered(line -> System.out.println("(" + line.length() + "): " + line));
+              .forEachOrdered(line -> System.out.println("(" + line.length() + "1): " + line));
     }
 }
