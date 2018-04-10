@@ -1,5 +1,11 @@
 package com.epam.homework;
 
+import java.util.Scanner;
+import java.util.stream.Stream;
+
+import static java.util.Comparator.comparingInt;
+import static java.util.Comparator.naturalOrder;
+
 public class Task2 {
 
     /**
@@ -39,10 +45,11 @@ public class Task2 {
      * (33): В царстве вечернем зеленой весны.
      */
     public static void main(String[] args) {
-        // TODO реализация
-
-        // TODO foreach($current : $result) {
-        // TODO     System.out.println("(" + current.length() + "): " + current);
-        // TODO }
+        "qwe"
+        Scanner scanner = new Scanner(System.in);
+        Stream.generate(scanner::nextLine)
+              .limit(Integer.parseInt(scanner.nextLine()))
+              .sorted(comparingInt(String::length).thenComparing(naturalOrder()))
+              .forEachOrdered(line -> System.out.println("(" + line.length() + "): " + line));
     }
 }
